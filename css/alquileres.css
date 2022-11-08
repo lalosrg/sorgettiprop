@@ -1,0 +1,218 @@
+.banner_alquileres{
+    margin-top: 0px;
+    width: 100%;
+    height: 850px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: linear-gradient(to right, #2c3e50c7, #bdc3c752), url(../img/alquileres1.jpg);   /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50c7, #bdc3c752), url(../img/alquileres1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.banner_alquileres h2{
+    text-align: center;
+    font-size: 6rem;
+    top: 350px;
+    position: relative;
+    text-shadow: 0 0 30px rgb(255, 255, 255);
+}
+
+.ola {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.pi{
+    font-size: 30px;
+    text-align: center;
+}
+
+.main_alquileres {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1400px;
+
+}
+
+.card_alquileres{
+    margin: 50px;
+    margin-bottom: 1200px;
+    display: flex;
+    align-items: center;
+    width: 390px;
+    height: 390px;
+    background: white;
+    box-shadow: 0 10px 30px rgba(2, 2, 2, 0.829);
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.card_alquileres:hover{
+    width: 780px;
+
+}
+
+.card_alquileres .imgbox{
+    position: relative;
+    min-width: 390px;
+    width: 390px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+
+}
+
+
+.card_alquileres .imgbox img{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card_alquileres .imgbox .descrip-inmu{
+    bottom: 0px;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.397);
+}
+
+.card_alquileres .imgbox .descrip-inmu h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.card_alquileres .imgbox .descrip-inmu h4 {
+    text-align: center;
+    color: #fff;
+    margin-top: 6px;
+    font-size: 25px;
+}
+
+.card_alquileres .detalles{
+    position: relative;
+    min-width: 350px;
+    background: #33a773;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    color: #fff;
+}
+
+.card_alquileres .detalles::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #fff;
+}
+
+.card_alquileres .detalles .comprar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_alquileres .detalles .comprar .precio{
+    font-size: 3em;
+}
+
+.card_alquileres .detalles .comprar .btn_detalles{
+    background: #000;
+    width: 170px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+.card_alquileres .detalles .comprar .btn_detalles a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_alquileres .detalles .comprar .btn_detalles:hover{
+    background: rgb(189, 14, 14);   
+    transform: scale(1.04)
+}
+
+.card_alquileres .detalles .comprar .btn_detalles a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 1920px) {
+    .banner_alquileres h2{
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .banner_alquileres h2{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .banner_alquileres h2{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .banner_alquileres h2{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 870px){  
+    .general_categorias{
+        height: 1990px;
+    }
+    .main_alquileres{
+        height: 1600px;
+    }
+
+    .card_alquileres:hover .imgbox{
+        transform: rotate(25deg);
+    }
+    .card_alquileres:hover{
+        width: 430px;
+        height: 860px;
+        display: flex;
+        flex-direction: column;
+    }
+    .card_alquileres .detalles::before{
+        content: "";
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+        margin-left: 215px;
+        transform: rotate(90deg);
+        top: 0;
+        border-bottom: 10px solid transparent;
+        border-top: 10px solid transparent;
+        border-left: 10px solid #fff;
+    }
+}

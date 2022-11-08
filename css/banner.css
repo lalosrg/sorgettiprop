@@ -1,0 +1,155 @@
+.banner_principal{
+    width: 100%;
+    height: 850px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: linear-gradient(to right, #4495e779, #d2e00d6b), url(../img/casa.jpg);   /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4495e760, #d2e00d2f), url(../img/casa.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    
+}
+
+.contenedor-filtros{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 190px;
+}
+
+
+.contenedor-filtros h2{
+    text-align: center;
+    font-size: 3rem;
+    flex-direction: column;
+    text-shadow: 0 0 10px rgb(255, 255, 255); 
+}
+
+body.dark .contenedor-filtros h2{
+    color: #000;
+}
+
+.filtros{
+    
+    background: rgba(255, 255, 255, 0.63);
+    box-shadow: inset 0 1px 5px rgba(0.0.0.0.5);
+    box-shadow: 0 0 30px rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    width: 90vh;
+    border-radius: 15px;
+    padding: 40px;
+    display: flex;
+    margin: 25px;
+}
+
+.filtros select{
+    text-align: center;
+    margin: 10px;
+    padding: 10px 20px 10px 10px;
+    background: #fffffe;
+    border-radius: 15px;  
+    font-size: 16px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.filtros select:focus{
+    outline: none;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+}
+
+.filtros .btn-filtros button{
+    font-weight: 900;
+    color: #fff;
+    padding: 9px 25px;
+    background: #226089;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-left: 20px;
+    transition: 0.5s;
+    font-size: 16px;
+    
+}
+
+.filtros .btn-filtros button:hover{
+
+    background: #2c78aa;
+    color: #fff;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+
+
+.ola{
+    fill: white;
+    transition: .8s ease all; 
+}
+
+body.dark .ola{
+    fill: rgb(43, 40, 40);
+    transition: .8s ease all; 
+}
+
+
+
+@media screen and (max-width: 1920px) {
+    .banner_principal .contenedor-filtros h2{
+        font-size: 5rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .banner_principal .contenedor-filtros h2{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .banner_principal .contenedor-filtros h2{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .banner_principal .contenedor-filtros h2{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
