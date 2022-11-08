@@ -78,12 +78,12 @@
 }
 
 .lalo .img-lalo img{
-    width: 170px;
+    width: 200px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-left: 40%;
-    margin-top: 90px;
+    margin-top: 70px;
     
 }
 
@@ -134,11 +134,11 @@
 }
 
 .luisma .img-luisma img{
-    width: 170px;
+    width: 200px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 90px;
+    margin-top: 70px;
     margin-left: 21%;
 }
 
