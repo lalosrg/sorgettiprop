@@ -18,10 +18,23 @@
     text-shadow: 0 0 30px rgb(255, 255, 255); 
 }
 
-.ola {
+body.dark .banner_informes{
+    color: #000;
+}
+
+.ola-informes {
     position: absolute;
     bottom: 0;
     width: 100%;
+    fill: #fff;
+    transition: .8s ease all; 
+}
+
+body.dark .ola-informes{
+    fill: rgb(43, 40, 40);
+    color: rgb(224, 217, 217);
+    transition: .8s ease all; 
+
 }
 
 
@@ -63,6 +76,10 @@
     cursor: pointer;
     border-radius: 16px;
     transition: 0.8s ease;
+}
+
+body.dark .card_informes{
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.603);
 }
 
 .card_informes:hover{

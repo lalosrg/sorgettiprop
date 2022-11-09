@@ -18,10 +18,24 @@
     text-shadow: 0 0 30px rgb(255, 255, 255); 
 }
 
-.ola {
+body.dark .banner_venta h2{
+    color: #000;
+}
+
+.ola-venta {
     position: absolute;
     bottom: 0;
     width: 100%;
+    fill: #fff;
+    transition: .8s ease all; 
+}
+
+
+
+body.dark .ola-venta{
+    fill: rgb(43, 40, 40);
+    color: rgb(224, 217, 217);
+    transition: .8s ease all; 
 }
 
 
@@ -63,7 +77,10 @@
     cursor: pointer;
     border-radius: 16px;
     transition: 0.8s ease;
-    
+}
+
+body.dark .card_venta{
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.603);
 }
 
 .card_venta:hover{
@@ -116,8 +133,9 @@
 
 
 
-.descripcion p{
-    font-size: 12px;
+.main_venta .card_venta .descripcion p{
+    margin: 0;
+    font-size: 14px;
 }
 
 .card_venta .detalles{

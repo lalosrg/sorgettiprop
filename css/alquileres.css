@@ -18,11 +18,23 @@
     text-shadow: 0 0 30px rgb(255, 255, 255); 
 }
 
-.ola {
+body.dark .banner_alquileres h2{
+    color: #000;
+}
+
+.ola-alquileres {
     position: absolute;
     bottom: 0;
     width: 100%;
+    fill: #fff;
+    transition: .8s ease all; 
 }
+
+body.dark .ola-alquileres{
+    fill: rgb(43, 40, 40);
+    transition: .8s ease all; 
+}
+
 
 
 .general_categorias{
@@ -63,6 +75,10 @@
     cursor: pointer;
     border-radius: 16px;
     transition: 0.8s ease;
+}
+
+body.dark .card_alquileres{
+    box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.603);
 }
 
 .card_alquileres:hover{
@@ -115,8 +131,9 @@
 
 
 
-.descripcion p{
-    font-size: 12px;
+.main_alquileres .card_alquileres .descripcion p{
+    margin: 0;
+    font-size: 14px;
 }
 
 .card_alquileres .detalles{

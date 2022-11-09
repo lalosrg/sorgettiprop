@@ -98,7 +98,10 @@ body.dark .contenedor-filtros h2{
 
 
 .ola{
-    fill: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    fill: #fff;
     transition: .8s ease all; 
 }
 
