@@ -6,11 +6,12 @@
 @import url(reseña.css);
 @import url(contacto.css);
 @import url(desarrollos.css);
-@import url(subastas.css);
+@import url(informes.css);
 @import url(alquileres.css);
 @import url(venta.css);
 @import url(divisas.css);
 @import url(nosotros.css);
+@import url(dominiomat.css);
 
 
 * {

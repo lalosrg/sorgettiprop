@@ -44,7 +44,7 @@ body.dark .contenedor-filtros h2{
     box-shadow: 0 0 30px rgb(0, 0, 0);
     justify-content: center;
     align-items: center;
-    width: 93vh;
+    width: 800px;
     border-radius: 15px;
     padding: 40px;
     display: flex;

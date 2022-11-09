@@ -1,16 +1,16 @@
-.banner_alquileres{
+.banner_informes{
     margin-top: 0px;
     width: 100%;
     height: 850px;
     background: #bdc3c7;  /* fallback for old browsers */
-    background: linear-gradient(to right, #4495e779, #d2e00d6b), url(../img/alquileres1.jpg);   /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4495e760, #d2e00d2f), url(../img/alquileres1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #4495e779, #d2e00d6b), url(../img/informes.jpeg);   /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4495e760, #d2e00d2f), url(../img/informes.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
 }
 
-.banner_alquileres h2{
+.banner_informes h2{
     font-size: 6rem;
     top: 350px;
     text-align: center;
@@ -40,7 +40,7 @@
     margin-right: 90px;
 }
 
-.main_alquileres {
+.main_informes {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@
 }
 
 
-.card_alquileres{
+.card_informes{
     margin: 35px;
     margin-bottom: 120px;
     display: flex;
@@ -65,12 +65,12 @@
     transition: 0.8s ease;
 }
 
-.card_alquileres:hover{
+.card_informes:hover{
     width: 780px;
 
 }
 
-.card_alquileres .imgbox{
+.card_informes .imgbox{
     position: relative;
     min-width: 390px;
     width: 390px;
@@ -83,7 +83,7 @@
 }
 
 
-.card_alquileres .imgbox img{
+.card_informes .imgbox img{
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -92,7 +92,7 @@
 
 }
 
-.card_alquileres .imgbox .descrip-inmu{
+.card_informes .imgbox .descrip-inmu{
     bottom: 0px;
     width: 100%;
     height: 100px;
@@ -100,13 +100,13 @@
     background: rgba(0, 0, 0, 0.397);
 }
 
-.card_alquileres .imgbox .descrip-inmu h3 {
+.card_informes .imgbox .descrip-inmu h3 {
     text-align: center;
     color: #fff;
     margin-top: 6px;
 }
 
-.card_alquileres .imgbox .descrip-inmu h4 {
+.card_informes .imgbox .descrip-inmu h4 {
     text-align: center;
     color: #fff;
     margin-top: 6px;
@@ -115,11 +115,12 @@
 
 
 
-.descripcion p{
-    font-size: 12px;
+.main_informes .card_informes .descripcion p{
+    margin: 0;
+    font-size: 14px;
 }
 
-.card_alquileres .detalles{
+.card_informes .detalles{
     position: relative;
     min-width: 350px;
     background: #33a773;
@@ -133,7 +134,7 @@
     color: #fff;
 }
 
-.card_alquileres .detalles::before{
+.card_informes .detalles::before{
     content: "";
     position: absolute;
     left: 0;
@@ -144,16 +145,16 @@
     border-left: 10px solid #fff;
 }
 
-.card_alquileres .detalles .comprar{
+.card_informes .detalles .comprar{
     display: flex;
     justify-content: space-between;
 }
 
-.card_alquileres .detalles .comprar .precio{
+.card_informes .detalles .comprar .precio{
     font-size: 3em;
 }
 
-.card_alquileres .detalles .comprar .btn_detalles{
+.card_informes .detalles .comprar .btn_detalles{
     background: #000;
     width: 170px;
     align-items: center;
@@ -162,7 +163,7 @@
     border-radius: 10px;
 }
 
-.card_alquileres .detalles .comprar .btn_detalles a{
+.card_informes .detalles .comprar .btn_detalles a{
     text-decoration: none;
     color: #fff;
     text-align: center;
@@ -170,12 +171,12 @@
     justify-content: center;
 }
 
-.card_alquileres .detalles .comprar .btn_detalles:hover{
+.card_informes .detalles .comprar .btn_detalles:hover{
     background: rgb(189, 14, 14);   
     transform: scale(1.04)
 }
 
-.card_alquileres .detalles .comprar .btn_detalles a:hover{
+.card_informes .detalles .comprar .btn_detalles a:hover{
     text-decoration: none;
     color: #fff;
     
@@ -184,25 +185,25 @@
 
 
 @media screen and (max-width: 1920px) {
-    .banner_alquileres h2{
+    .banner_informes h2{
         font-size: 5rem;
     }
 }
 
 @media screen and (max-width: 1280px) {
-    .banner_alquileres h2{
+    .banner_informes h2{
         font-size: 4rem;
     }
 }
 
 @media screen and (max-width: 640px) {
-    .banner_alquileres h2{
+    .banner_informes h2{
         font-size: 3rem;
     }
 }
 
 @media screen and (max-width: 400px) {
-    .banner_alquileres{
+    .banner_informes{
         font-size: 2rem;
     }
 }
