@@ -124,6 +124,23 @@ body.dark .ola{
     }
 }
 
+@media screen and (max-width: 830px){
+    .filtros{
+        flex-direction: column;
+        width: auto;
+        height: 300px;
+    }
+    .filtros select{
+        margin: 10px;
+    }
+    .filtros .btn-filtros button{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+
+
 @media screen and (max-width: 640px) {
     .banner_principal .contenedor-filtros h2{
         font-size: 3rem;
