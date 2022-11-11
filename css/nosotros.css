@@ -5,7 +5,7 @@
     align-items: center;
     height: 692px;
     width: 100%;
-    background: #d68a80;
+    background: #fff;
     z-index: 1;
     
 }
@@ -16,9 +16,19 @@
     height: 692px;
     width: 100%;
     position: absolute;
-    background: black;
-   opacity: 20%;
+    background: #000;
+   opacity: 30%;
    z-index: 3;
+}
+
+.media video{
+    width: 100%;
+    height: 692px;
+    z-index: 2;
+    margin-top: 0;
+    position: absolute;
+    object-fit: cover;
+    font-size: 'object-fit: cover';
 }
 
 #contenedor-nosotros {
@@ -36,6 +46,7 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
 
 .lalo {
     width: 100%;
@@ -56,7 +67,7 @@
 }
 
 .lalo .info-lalo p{
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     margin: 40px;
 }
@@ -79,11 +90,12 @@
 
 .lalo .img-lalo img{
     width: 200px;
+    
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     margin-left: 40%;
-    margin-top: 70px;
+    margin-top: 65px;
     
 }
 
@@ -113,7 +125,7 @@
 }
 
 .luisma .info-luisma p{
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     margin: 40px;
 }
@@ -127,19 +139,22 @@
     color: rgb(238, 118, 5);
 }
 
-.lusima .img-luisma{
+.lusima .info-ubicacion{
     width: 50%;
     float: left;
     position: relative;
 }
 
-.luisma .img-luisma img{
+.luisma .info-ubicacion iframe{
     width: 200px;
+    height: 200px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 70px;
+    margin-top: 65px;
     margin-left: 21%;
+    border: 0;
+    border-radius: 50%;
 }
 
 .luisma:hover{
@@ -212,8 +227,8 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 50px;  
-        margin-right: 41%;
-        width: 140px;
+        margin-right: 35%;
+        width: 180px;
     }
 
     .luisma{
@@ -229,42 +244,43 @@
         float: none;
     
     }
-    .luisma .img-luisma{
+    .luisma .info-ubicacion{
         width: 100%;
         float: none;
         display: flex;
         justify-content: center;
        align-items: center;
     }
-    .luisma .img-luisma img{
+    .luisma .info-ubicacion iframe{
         justify-content: center;
         align-items: center;
         margin-bottom: 50px;  
-        margin-right: 22%;
-        width: 140px;
+        margin-right: 20%;
+        width: 180px;
+        height: 180px;
     }
 
 }
 
 @media screen and (max-width:600px){
     .lalo{
-        height: 600px;
+        height: 650px;
     }
     .luisma{
-        height: 600px;
+        height: 650px;
     }
 }
 
 
 @media screen and (max-width:500px){
     #contenedor-nosotros{
-        height: 1700px;
+        height: 1800px;
     }
     .lalo{
-        height: 700px;
+        height: 750px;
     }
     .luisma{
-        height: 700px;
+        height: 750px;
     }
 }
 
