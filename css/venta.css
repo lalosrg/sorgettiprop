@@ -173,30 +173,33 @@ body.dark .card_venta{
 }
 
 .card_venta .detalles .comprar .btn_detalles{
-    background: #000;
+    background: #fff;
     width: 170px;
     align-items: center;
     justify-content: center;
     display: flex;
     border-radius: 10px;
+    transition: all 500ms ease-out;
 }
 
 .card_venta .detalles .comprar .btn_detalles a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
     text-align: center;
     align-items: center;
     justify-content: center;
+    
 }
 
-.card_venta .detalles .comprar .btn_detalles:hover{
-    background: rgb(189, 14, 14);   
-    transform: scale(1.04)
+.card_venta .detalles .comprar .btn_detalles:hover{ 
+    transform: scale(1.04);
+    transition: all 500ms ease-out;
 }
 
 .card_venta .detalles .comprar .btn_detalles a:hover{
     text-decoration: none;
-    color: #fff;
+   
+   
     
 }
 

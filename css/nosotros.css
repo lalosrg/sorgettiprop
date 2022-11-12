@@ -17,7 +17,7 @@
     width: 100%;
     position: absolute;
     background: #000;
-   opacity: 30%;
+   opacity: 20%;
    z-index: 3;
 }
 
@@ -35,7 +35,7 @@
     width: 100%;
     background: #fff;
     align-items: center;
-    height: 1000px;
+    height: 1600px;
 
 }
 
@@ -167,7 +167,7 @@
 
 @media screen and (max-width:1100px) {
     #contenedor-nosotros{
-        height: 1100px;
+        height: 1600px;
     }
 
     .lalo{
@@ -199,7 +199,7 @@
 
 @media screen and (max-width:1040px) {
     #contenedor-nosotros{
-        height: 1500px;
+        height: 1900px;
     }
     .lalo{
         height: 550px;
@@ -227,7 +227,7 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 50px;  
-        margin-right: 35%;
+        margin-right: 37%;
         width: 180px;
     }
 
@@ -259,22 +259,171 @@
         width: 180px;
         height: 180px;
     }
+}
+
+.equipo{
+    margin-bottom: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.equipo h2{
+    font-size: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.ola_equipo_dos{
+    position: relative;
+    width: 100%;   
+    margin-bottom: 0; 
 
 }
 
-@media screen and (max-width:600px){
+
+.card {
+    position: relative;
+    width: 270px;
+    height: 330px;
+    margin: 15px;  
+    cursor: pointer;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .front {
+   transform: perspective(600px) rotate(0deg); 
+    box-shadow: 0 5px 10px #000;
+}
+
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #FFF;
+    background: rgba(0,0,0, .4);
+    text-align: center;
+}
+
+.card .back{
+    transform: perspective(600px) rotateY(180deg);
+    background: #33a773;
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .back h3 {
+    font-size: 15px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p {
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+
+@media screen and (max-width:1078px) {
+    #contenedor-nosotros{
+        height: 2100px;
+    }
+}
+
+
+@media screen and (max-width:899px) {
+    #contenedor-nosotros{
+        height: 2500px;
+    }
+}
+
+
+
+@media screen and (max-width:779px) {
+    #contenedor-nosotros{
+        height: 2750px;
+    }
+}
+
+@media screen and (max-width:599px){
+    #contenedor-nosotros{
+        height: 3100px;
+    }
+
     .lalo{
         height: 650px;
     }
     .luisma{
         height: 650px;
+    }
+}
+
+@media screen and (max-width:519px) {
+    #contenedor-nosotros{
+        height: 3150px;
     }
 }
 
 
 @media screen and (max-width:500px){
     #contenedor-nosotros{
-        height: 1800px;
+        height: 3250px;
     }
     .lalo{
         height: 750px;
@@ -284,4 +433,8 @@
     }
 }
 
-
+@media screen and (max-width:356px) {
+    #contenedor-nosotros{
+        height: 3400px;
+}
+}

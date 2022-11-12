@@ -169,6 +169,8 @@ body.dark .ola-uno{
     box-shadow: 0px 2px 3px 5px rgba(0,0,0,0.2);
     z-index: 1;
     transition: all 1s;
+    transition: all 500ms ease-out;
+    
 }
 
 .btn-wsp:hover{
@@ -184,6 +186,49 @@ body.dark .btn-wsp{
 }
 
 
+.btn-tel{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    right: 30px; 
+    background: #226089;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0px 2px 3px 5px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: all 1s;
+    margin-top: 70px;
+    transition: all 500ms ease-out;
+}
+
+.btn-tel:hover{
+    transition: all 1s;
+    transform: scale(1.2);
+    background-color: #3592cf;
+    color: #fff;
+    border: 2px solid;
+}
+
+body.dark .btn-tel{
+    box-shadow: 0px 2px 3px 5px rgba(248, 246, 246, 0.315);
+    background: #3ea7ec;
+}
+
+
+@media screen and (max-width: 730px) {
+    .btn-wsp{
+        margin-right: 75px;
+        transition: all 500ms ease-out;
+    }
+    .btn-tel{
+        margin-top: 0;
+        transition: all 500ms ease-out;
+    }
+}
 
 
 

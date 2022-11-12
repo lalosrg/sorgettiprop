@@ -130,8 +130,9 @@ body.dark .card_desarrollos{
 
 
 
-.descripcion p{
-    font-size: 12px;
+.main_desarrollos .card_desarrollos .descripcion p{
+    margin: 0;
+    font-size: 14px;
 }
 
 .card_desarrollos .detalles{
@@ -169,31 +170,30 @@ body.dark .card_desarrollos{
 }
 
 .card_desarrollos .detalles .comprar .btn_detalles{
-    background: #000;
+    background: #fff;
     width: 170px;
     align-items: center;
     justify-content: center;
     display: flex;
     border-radius: 10px;
+    transition: all 500ms ease-out;
 }
 
 .card_desarrollos .detalles .comprar .btn_detalles a{
     text-decoration: none;
-    color: #fff;
+    color: #000;
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
 .card_desarrollos .detalles .comprar .btn_detalles:hover{
-    background: rgb(189, 14, 14);   
-    transform: scale(1.04)
+    transform: scale(1.04);
+    transition: all 500ms ease-out;
 }
 
 .card_desarrollos .detalles .comprar .btn_detalles a:hover{
-    text-decoration: none;
-    color: #fff;
-    
+    text-decoration: none; 
 }
 
 
