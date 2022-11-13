@@ -105,8 +105,8 @@ section .btn_neon{
     background: #daf7f0;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 39%;
-    margin-right: 39%;
+    margin-left: 40%;
+    margin-right: 40%;
     justify-content: center;
     align-items: center;
     position: relative;

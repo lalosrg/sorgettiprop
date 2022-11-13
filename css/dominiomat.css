@@ -1,3 +1,32 @@
+.banner_dominio{
+    width: 100%;
+    height: 850px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: linear-gradient(to right, #4495e779, #d2e00d6b), url(../img/dominio.jpg);   /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4495e760, #d2e00d2f), url(../img/dominio.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.banner_dominio h2{
+    font-size: 5rem;
+    margin-bottom: 40px;
+    text-align: center;
+    position: relative;
+    text-shadow: 0 0 30px rgb(255, 255, 255); 
+}
+
+body.dark .banner_dominio{
+    color: #000;
+}
+
 
 .contenedor-dominio {
     display: flex;

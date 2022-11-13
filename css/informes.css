@@ -3,8 +3,8 @@
     width: 100%;
     height: 850px;
     background: #bdc3c7;  /* fallback for old browsers */
-    background: linear-gradient(to right, #4495e779, #d2e00d6b), url(../img/informes.jpeg);   /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4495e760, #d2e00d2f), url(../img/informes.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #4495e779, #d2e00d6b), url(../img/informes.jpg);   /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4495e760, #d2e00d2f), url(../img/informes.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -58,7 +58,22 @@ body.dark .ola-informes{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 600px;
+    height: 700px;
+}
+
+.general_categorias .logo-mp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.general_categorias .logo-mp img{
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
 
 
