@@ -15,7 +15,7 @@
 @import url(indice.css);
 @import url(inhibicionlegal.css);
 @import url(inhibicionnolegal.css);
-
+@import url(tasaciones.css);
 
 
 * {
@@ -108,7 +108,7 @@ footer .social_icon a:hover{
 
 footer .menu_footer li a
 {
-    font-size: 1.1em;
+    font-size: 1em;
     color: white;
     margin: 0 10px;
     display: inline-block;
