@@ -118,22 +118,29 @@ box-shadow: 0 0 10px #21e6c1;
 }
 
 #inhibicion-no-legal .boton{
-margin: 10px;
-background: #01b2ea;
-color: #fff;
-margin-left: 125px;
-padding: 18px;
-width: 255px;
-border-radius: 15px;
-margin-left: 0px;
-margin-right: 0px;
+    font-weight: 900;
+    color: #fff;
+    padding: 9px 25px;
+    background: #009fe3;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 8px;
+    transition: 0.5s;
+    width: auto;
+    border: 2px solid #000;
 }
 
 #inhibicion-no-legal .boton:hover {
-background-color: #0abaf0;
-color: #fff;
-font-weight: bold;
-border: 2px solid #000;
+    background-color: #0abaf0;
+    color: #fff;
+    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 
