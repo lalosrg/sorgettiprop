@@ -63,7 +63,7 @@ body.dark .banner_inhibicionlegal{
     transition: .8s ease all; 
 }
 
-body.dark #formulario{
+body.dark #inhibicion-legal{
     background: #f3ebe0;
     box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.603);
     transition: .8s ease all; 

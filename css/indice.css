@@ -64,7 +64,7 @@ body.dark .banner_indice{
     transition: .8s ease all; 
 }
 
-body.dark #formulario{
+body.dark #indice{
     background: #f3ebe0;
     box-shadow: 0px 15px 25px rgba(255, 255, 255, 0.603);
     transition: .8s ease all; 
