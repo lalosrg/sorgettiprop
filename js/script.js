@@ -18,6 +18,11 @@ if (localStorage.getItem("dark-mode")){
     
 }
 
+window.addEventListener('scroll', function (){
+    var header = document.querySelector('.header');
+    header.classList.toggle('abajo',this.window.scrollY>0);
+})
+
 
 
 
